@@ -26,22 +26,22 @@ author:
   avatar           : "surya_profile.jpeg"
   name             : "Suryanarayana Sankagiri"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor, Wadhwani School of AI"
-  location         : "Chennai, India"
-  employer         : "IIT Madras"
+  bio              : "Postdoctoral Researcher"
+  location         : "Lausanne, Switzerland"
+  employer         : "EPFL"
   uri              : # URL
-  email            : "suryasan94@gmail.com" 
+  email            : "suryanarayana.sankagiri@epfl.ch" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=vz0S8igAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-6565-6233"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
