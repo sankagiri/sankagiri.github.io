@@ -10,8 +10,7 @@
   pages        = {1--20},
   publisher    = {{PMLR}},
   keywords     = {conferences},
-  year         = {2026},
-  abstract     = {The contextual dueling bandit problem models adaptive recommender systems in which, at each step, the algorithm presents a set of items to the user and the user’s choice reveals their preference. While this setup captures implicit choices made during content navigation, it does not account for other natural comparison queries. Motivated by the observation that users provide more reliable feedback after consuming items, we propose a new bandit model in which the algorithm recommends a single item at each time step and, after consumption, asks the user to compare it with another item chosen from their consumption history. Crucially, this comparison item can be selected without incurring additional regret, potentially improving performance. The regret analysis is challenging due to temporal dependencies induced by the user’s history. To address this, we show that informative comparison queries can be constructed once the history is sufficiently rich, satisfying a suitable diversity condition. We then prove that a short initial random exploration phase suffices to build such a rich history with high probability. Using matrix concentration arguments, this leads to $O(\sqrt{T})$ regret guarantees. Simulations further demonstrate that reusing past items for comparisons can significantly reduce regret compared to only comparing simultaneously recommended items.}
+  year         = {2026}
 }
 
 @inproceedings{DBLP:conf/alt/VillemaudSG26,
@@ -25,9 +24,7 @@
   pages        = {1--51},
   publisher    = {{PMLR}},
   keywords     = {conferences},
-  year         = {2026},
-  abstract     = {Ranking items is a central task in many information retrieval and recommender systems, where user input often comes in the form of ratings on a coarse discrete scale. We ask whether it is possible to recover a fine-grained item ranking from such coarse-grained ratings. We model items as having scores and users as having thresholds: a user likes an item if its score exceeds their threshold and dislikes it otherwise. Although all users implicitly agree on the total item order, estimating that order is challenging when both scores and thresholds are latent. Under our model, any ranking method naturally partitions the $n$ items into ordered bins, while items within each bin remain unordered. Users arrive sequentially, and each new user can be queried to refine the current ranking. We prove that achieving a near-perfect ranking, measured by Spearman distance, requires $\Theta(n^2)$ users and therefore $\Omega(n^2)$ queries. This is significantly worse than the $O(n \log n)$ queries needed to rank from comparisons or from ratings with known user thresholds, reflecting the additional queries required to estimate each user’s latent threshold. Our bound also quantifies the impact of a mismatch between the score and threshold distributions through a quadratic divergence factor. To demonstrate tightness, we provide a ranking algorithm whose query complexity matches our bound up to a logarithmic factor. Overall, our results reveal a fundamental tension in online ranking: diversity in user thresholds is necessary to aggregate coarse ratings into a fine-grained ranking, but this diversity comes at a cost when thresholds are a priori unknown.}
-
+  year         = {2026}
 }
 
 @inproceedings{DBLP:conf/icml/SankagiriEG25,
@@ -42,8 +39,7 @@
   pages        = {52798--52832},
   publisher    = {{PMLR}},
   keywords     = {conferences},
-  year         = {2025},
-  abstract     = {We consider a recommender system that elicits user feedback through pairwise comparisons rather than ratings. We study the problem of learning personalised preferences from such comparison data via collaborative filtering. Similar to the classical matrix completion setting, we assume that users and items are endowed with low-dimensional latent features, which give rise to user--item utilities. Comparison outcomes are governed by a discrete choice model over these utilities, and learning the latent features is formulated as a maximum likelihood problem over the comparison dataset. Despite the resulting optimization problem being nonconvex, we show that gradient-based methods converge exponentially to the true latent features given a warm start. Importantly, this guarantee holds in a sparse data regime, where each user compares only a small number of item pairs. Our main technical contribution is to extend key concentration results commonly used in matrix completion to this setting. Simulations show that the empirical performance exceeds theoretical predictions, even when some assumptions are relaxed. Overall, our results demonstrate that learning personalised recommendations from comparison data is both computationally and statistically efficient.}
+  year         = {2025}
 }
 
 @inproceedings{DBLP:conf/uai/CorreaSFG25,
@@ -58,9 +54,7 @@
   pages        = {837--862},
   publisher    = {{PMLR}},
   keywords     = {conferences},
-  year         = {2025},
-  abstract     = {Similarity choice data arise when humans make choices among alternatives based on their similarity to a target, \emph{e.g.}, in information retrieval and embedding learning settings. Classical metric-based models of similarity choice typically assume independence of irrelevant alternatives (IIA), a property that enables simpler formulations. While IIA violations have been documented in many discrete choice settings, the similarity choice setting has received comparatively little attention, largely because the target-dependent nature of the choice complicates IIA testing. We propose two statistical methods to test for IIA: a classical goodness-of-fit test and a Bayesian counterpart based on the framework of Posterior Predictive Checks (PPC). The Bayesian approach, which constitutes our main technical contribution, quantifies the degree of IIA violation beyond mere statistical significance. We curate two datasets: one with choice sets designed to elicit IIA violations, and another with randomly generated choice sets drawn from the same item universe. Our tests reveal significant IIA violations on both datasets, and notably, we find a comparable degree of violation between them. In addition, we introduce a new PPC-based test for population homogeneity. The results indicate that the population is homogeneous, suggesting that the observed IIA violations are driven by context effects, specifically interactions within the choice sets. These findings highlight the need for new similarity choice models that explicitly account for such context effects.}
-
+  year         = {2025}
 }
 
 
@@ -73,8 +67,7 @@
   year         = {2025},
   volume       = {33},
   number       = {6},
-  pages        = {3455--3470},
-  abstract     = {A payment channel network is a blockchain-based overlay mechanism that allows parties to transact more efficiently than directly using the blockchain. These networks are composed of payment channels that carry transactions between pairs of users. Due to its design, a payment channel cannot sustain a net flow of money in either direction indefinitely. Therefore, a payment channel network cannot serve transaction requests arbitrarily over a long period of time. We introduce DEBT control, a joint routing and flow-control protocol that guides a payment channel network towards an optimal operating state for any steady-state demand. In this protocol, each channel sets a price for routing transactions through it. Transacting users make flow-control and routing decisions by responding to these prices. A channel updates its price based on the net flow of money through it. We develop the protocol by formulating a network utility maximization problem and solving its dual through gradient descent. We provide convergence guarantees for the protocol and also illustrate its behavior through simulations.}
+  pages        = {3455--3470}
 }
 
 @article{DBLP:journals/sigmetrics/SankagiriH24,
@@ -87,8 +80,7 @@
   pages        = {36--38},
   publisher    = {{ACM}},
   keywords     = {workshops},
-  year         = {2024},
-  abstract     = {Blockchains are decentralized digital transaction systems. Most blockchains today suffer from poor transaction throughput, resulting in exorbitant transaction fees and hindering widespread adoption. Layer-two blockchain mechanisms are tools that allow transactions to take place outside of the main blockchain system, thereby increasing the system's throughput. A payment channel network (PCN) is one such mechanism that is used in practice. This paper focuses on their long-term transaction processing efficiency.}
+  year         = {2024}
 }
 
 @inproceedings{DBLP:conf/IEEEscc/SampathNDDS22,
@@ -102,8 +94,7 @@
   pages        = {259--267},
   publisher    = {{IEEE}},
   keywords     = {conferences},
-  year         = {2022},
-  abstract     = {Inventory pooling is a collaborative arrangement in which different agents share their inventories to reduce the total inventory cost. Each agent maintains its own inventory, which are shared periodically through lateral transshipment. Analysis of an inventory pooling system is typified by demand profiles, cost sharing mechanism, level of collaboration, type of transshipment etc. By varying the choice in each dimension, different possible configurations of the system can be defined. Extensive analysis of the possible configurations is required for the agents to agree on a particular configuration. Such an analysis would require a multi-disciplinary approach to study each of the dimensions in isolation. We propose deep reinforcement learning as a single framework to analyze the inventory pooling configurations. Extensive computational experiments illustrate the efficacy of deep reinforcement learning for inventory pooling with generic assumptions on system characteristics, that are intractable using existing models.}
+  year         = {2022}
 }
 
 @inproceedings{DBLP:conf/consensusday/AmeenSH22,
@@ -131,8 +122,7 @@
   pages        = {84--103},
   publisher    = {Springer},
   keywords     = {conferences},
-  year         = {2021},
-  abstract     = {Longest-chain blockchain protocols, such as Bitcoin, guarantee liveness even when the number of actively participating users is variable, i.e., they are adaptive. However, they are not safe under network partitions, i.e., they do not guarantee finality. On the other hand, classical blockchain protocols, like PBFT, achieve finality but not adaptivity. Indeed, the CAP theorem in the context of blockchains asserts that no protocol can simultaneously offer both adaptivity and finality. We propose a new blockchain protocol, called the checkpointed longest chain, that offers individual users the choice between finality and adaptivity instead of imposing it at a system-wide level. This protocol's salient feature is that it supports two distinct confirmation rules: one that guarantees adaptivity and the other finality. The more optimistic adaptive rule always confirms blocks that are marked as finalized by the more conservative rule, and may possibly confirm more blocks during variable participation levels. Clients (users) make a local choice between the confirmation rules as per their personal preference, while miners follow a fixed block proposal rule that is consistent with both confirmation rules. The proposed protocol has the additional benefit of intrinsic validity: the finalized blocks always lie on a single blockchain, and therefore miners can attest to the validity of transactions while proposing blocks. Our protocol builds on the notion of a finality gadget, a popular technique for adding finality to longest-chain protocols.}
+  year         = {2021}
 }
 
 @inproceedings{DBLP:conf/fc/BaileyS21,
@@ -145,8 +135,7 @@
   pages        = {451--466},
   publisher    = {Springer},
   keywords     = {workshops},
-  year         = {2021},
-  abstract     = {The ever-growing size of the Bitcoin UTXO state is a factor preventing nodes with limited storage capacity from validating transactions. Cryptographic accumulators, such as Merkle trees, offer a viable solution to the problem. Full nodes create a Merkle tree from the UTXO set, while stateless nodes merely store the root of the Merkle tree. When provided with a proof, stateless nodes can verify that a transaction's inputs belong to the UTXO set. In this work, we present a systematic study of Merkle tree based accumulators, with a focus on factors that reduce the proof size. Based on the observation that UTXOs typically have a short lifetime, we propose that recent UTXOs be co-located in the tree. When proofs for different transactions are batched, such a design reduces the per-transaction proof size. We provide details of our implementation of this idea, describing certain optimizations that further reduce the proof size in practice. On Bitcoin data before August 2019, we show that our design achieves a 4.6x reduction in proof size vis-a-vis UTREEXO, which is a different Merkle-tree based system designed to support stateless nodes.}
+  year         = {2021}
 }
 
 @article{DBLP:journals/ss/SankagiriGH23,
@@ -160,8 +149,7 @@
   pages        = {457--478},
   keywords     = {journals},
   year         = {2023},
-  publisher    = {INFORMS},
-  abstract     = {In the field of distributed consensus and blockchains, the synchronous communication model assumes that all messages between honest parties are delayed by at most a known constant $\Delta$. Recent literature establishes that the longest-chain blockchain protocol is secure under synchronous communication. However, these security guarantees degrade with $\Delta$. In real-world networks, communication delays may occasionally be far more than their typical value. In such a scenario, the security guarantees based on the synchronous model may be overly pessimistic, because they are based on the worst-case delay. This work analyzes the longest-chain protocol under a new network model that assumes the communication delays are random, independent, and identically distributed. The model allows for delay distributions with unbounded support. The main result of this paper is a security guarantee for the longest-chain protocol operating under this model. Our security results depend on the probability that delays exceed the interblock time period, rather than on the worst-case delay. We provide simple, explicit bounds on the security-violation probability that decays exponentially with the security parameter. Under network conditions where delays are sporadically large, our results can provide better security guarantees than prior work.}
+  publisher    = {INFORMS}
 }
 
 @inproceedings{DBLP:conf/blockchain2/SampathDKNDS20,
@@ -176,8 +164,7 @@
   pages        = {371--378},
   publisher    = {{IEEE}},
   keywords     = {conferences},
-  year         = {2020},
-  abstract     = {Collaborative shipping refers to multiple independent shippers consolidating their freight flows to share the same set of carriers for goods transportation, in order to reduce cost. In this paper, we design a collaborative shipping marketplace for spot shipments, where the shipping demands are bundled dynamically without premeditated planning by the shippers. Collaborative shipping requires a neutral third party as an orchestrator, who identifies the bundling opportunities, matches with the carrier, and allocates the cost among the shippers. We propose a Blockchain based application that enables decentralized and transparent participation of shippers and carriers in choosing the matching of bundled demand with supply, without an orchestrator. A multi-disciplinary approach with techniques from multi criteria optimization, group decision making, cooperative game theory, and electoral voting are used to develop the distributed collaborative shipping application using Blockchain.}
+  year         = {2020}
 }
 
 @article{DBLP:journals/tit/HajekS19,
@@ -189,8 +176,7 @@
   number       = {11},
   pages        = {6853--6874},
   keywords     = {journals},
-  year         = {2019},
-  abstract     = {A message passing algorithm is derived for recovering communities within a graph generated by a variation of the Barabási-Albert preferential attachment model. The estimator is assumed to know the arrival times, or order of attachment, of the vertices. The derivation of the algorithm is based on belief propagation under an independence assumption. Two precursors to the message passing algorithm are analyzed: the first is a degree thresholding (DT) algorithm and the second is an algorithm based on the arrival times of the children (C) of a given vertex, where the children of a given vertex are the vertices that attached to it. Comparison of the performance of the algorithms shows it is beneficial to know the arrival times, not just the number, of the children. The probability of correct classification of a vertex is asymptotically determined by the fraction of vertices arriving before it. Two extensions of Algorithm C are given: the first is based on joint likelihood of the children of a fixed set of vertices; it can sometimes be used to seed the message passing algorithm. The second is the message passing algorithm. Simulation results are given.}
+  year         = {2019}
 }
 
 @inproceedings{DBLP:conf/isit/HajekS18,
@@ -201,8 +187,7 @@
   pages        = {2097--2101},
   publisher    = {{IEEE}},
   keywords     = {conferences},
-  year         = {2018},
-  abstract     = {A message passing algorithm is derived for recovering a dense subgraph within a graph generated by a variation of the Barabasi-Albert preferential attachment model. The estimator is assumed to know the order of attachment of the vertices. The derivation of the algorithm is based on belief propagation under an independence assumption. Two precursors to the message passing algorithm are analyzed: the first is a degree thresholding (DT) algorithm and the second is an algorithm based on the arrival times of the children (C) of a given vertex, where the children of a given vertex are the vertices that attached to it. Algorithm C significantly outperforms DT, showing it is beneficial to know the arrival times of the children, beyond simply knowing the number of them. For fixed fraction of vertices in the community, fixed number of new edges per arriving vertex, and fixed affinity between vertices in the community, the probability of error for recovering the label of a vertex is found as a function of the time of attachment, for either algorithm DT or C, in the large graph limit. By averaging over the time of attachment, the limit in probability of the fraction of label errors made over all vertices is identified, for either of the algorithms DT or C.}
+  year         = {2018}
 }
 
 @inproceedings{DBLP:conf/ismir/PSGR16,
@@ -214,8 +199,7 @@
   booktitle    = {{ISMIR}},
   pages        = {232--238},
   keywords     = {conferences},
-  year         = {2016},
-  abstract     = {Hindustani classical instrumental concerts follow an episodic development that, musicologically, is described via changes in the rhythmic structure. Uncovering this structure in a musically relevant form can provide for pow- erful visual representations of the concert audio that is of potential value in music appreciation and pedagogy. We in- vestigate the structural analysis of the metered section (gat) of concerts of two plucked string instruments, the sitar and sarod. A prominent aspect of the gat is the interplay be- tween the melody soloist and the accompanying drummer (tabla). The tempo as provided by the tabla together with the rhythmic density of the sitar/sarod plucks serve as the main dimensions that predict the transition between con- cert sections. We present methods to access the stream of tabla onsets separately from the sitar/sarod onsets, ad- dressing challenges that arise in the instrument separation. Further, the robust detection of tempo and the estimation of rhythmic density of sitar/sarod plucks are discussed. A case study of a fully annotated concert is presented, and is followed by results of achieved segmentation accuracy on a database of sitar and sarod gats across artists.}
+  year         = {2016}
 }
 
 @inproceedings{DBLP:conf/ncc/PSR16,
@@ -227,6 +211,5 @@
   pages        = {1--6},
   publisher    = {{IEEE}},
   keywords     = {conferences},
-  year         = {2016},
-  abstract     = {Tempo, or perceived speed, is an important characteristic of any music piece. In Hindustani instrumental music, different sections of a concert are characterised by the absence or presence of a regular rhythm and the speed of the music. In this paper, we analyse the tempo of concerts of a particular plucked-string instrument, the sarod. We first describe and evaluate different methods to detect plucks of sarod strings, as the timing pattern of the plucks, or note onsets, decides the tempo. We then use one such accurate method to track the tempo of a concert by analyzing the short-term periodicity of the onsets. Simultaneously, we also generate a measure of the salience of the periodicity to distinguish between rhythmic and non-rhythmic sections. We show that the tempo and salience vary significantly across sections in a concert, and thus, are valuable discriminative features in the task of automatic segmentation of sarod concerts.}
+  year         = {2016}
 }
