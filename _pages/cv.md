@@ -8,57 +8,63 @@ redirect_from:
 ---
 
 {% include base_path %}
+[Download CV (PDF)]({{ base_path }}/files/CV.pdf)
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Electrical and Computer Engineering, University of Illinois Urbana-Champaign (UIUC), 2022
+* M.S. in Electrical and Computer Engineering, University of Illinois Urbana-Champaign (UIUC), 2018
+* B.Tech. in Electrical Engineering, Indian Institute of Technology (IIT) Bombay, 2016
+* Higher Secondary Certificate Examination (Class XII), Maharashtra State Board, 2012
+* Secondary School Examination (Class X), Central Board of Secondary Education, 2010
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Aug 2022 -- Jan 2026: Postdoctoral Researcher
+  * Ecole Polytechnique Federale de Lausanne (EPFL)
+  * Worked on recommendation systems that learn from comparisons
+  * Supervisor: Professor Matthias Grossglauser
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Aug 2016 -- Jul 2022: Graduate Research Assistant
+  * University of Illinois Urbana-Champaign (UIUC)
+  * Worked on blockchains (PhD thesis) and community detection (MS thesis)
+  * Supervisor: Professor Bruce Hajek
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Summer 2019: Research Internship
+  * IBM Research, Bengaluru
+  * Worked on solving supply-chain problems using blockchains
+  * Supervisor: Dr. Kameshwaran Sampath
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Summer 2015: Summer Internship
+  * Qualcomm, Bengaluru
+  * Worked on RFIC chip design
+  * Supervisor: Dr. Apu Sivadas
+
+* Summer 2014: Summer Internship
+  * Weizmann Institute of Science, Israel
+  * Worked on perovskite solar cells
+  * Supervisor: Professor Gary Hodes
+
+* Summer 2013: Summer Internship
+  * Tata Institute of Fundamental Research, Mumbai
+  * Worked on fluorescent sensors for autophagy
+  * Supervisor: Professor Ankona Datta
   
-Talks
+Teaching Assistantship
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* Fall 2025: CS 303 -- Principles of Online Decision Making, EPFL
+  * Instructor: Professor Matthias Grossglauser
+  * Designed slides, homework questions, exam questions
+
+* Fall 2018: EE 534 -- Random Processes, UIUC
+  * Instructor: Professor Olgica Milenkovic
+  * Held weekly tutorial sessions, office hours, and graded exams
+
+* Spring 2016: MA 106 & 108 -- Linear Algebra & Differential Equations, IIT Bombay
+  * Instructor: Professor Anandavardhanan and Professor Neela Nataraj
+  * Held weekly tutorial sessions and graded exams
+
+Organisation
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Co-chair of CSL Student Conference, 2020
+* Organiser of CSL Social Hour, 2019--2020
