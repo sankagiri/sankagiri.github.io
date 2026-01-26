@@ -1,6 +1,6 @@
 ---
 title: "Recovering a Hidden Community in a Preferential Attachment Graph"
-authors: 'Bruce Hajek, <b>Suryanarayana Sankagiri</b>'
+authors: 'Bruce E. Hajek, <b>Suryanarayana Sankagiri</b>'
 collection: publications
 
 permalink: /publication/2018-01-01-Recovering-a-Hidden-Community-in-a-Preferential-Attachment-Graph

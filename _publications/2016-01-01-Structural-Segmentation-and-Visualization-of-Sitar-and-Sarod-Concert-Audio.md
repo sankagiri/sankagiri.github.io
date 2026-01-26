@@ -1,6 +1,6 @@
 ---
 title: "Structural Segmentation and Visualization of Sitar and Sarod Concert Audio"
-authors: 'Vinutha P., <b>Suryanarayana Sankagiri</b>, Kaustuv Ganguli, Preeti Rao'
+authors: 'Vinutha T. P., <b>Suryanarayana Sankagiri</b>, Kaustuv Kanti Ganguli, Preeti Rao'
 collection: publications
 
 permalink: /publication/2016-01-01-Structural-Segmentation-and-Visualization-of-Sitar-and-Sarod-Concert-Audio

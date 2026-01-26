@@ -1,6 +1,6 @@
 ---
 title: "Reliable Tempo Detection for Structural Segmentation in Sarod Concerts"
-authors: 'Vinutha P., <b>Suryanarayana Sankagiri</b>, Preeti Rao'
+authors: 'Vinutha T. P., <b>Suryanarayana Sankagiri</b>, Preeti Rao'
 collection: publications
 
 permalink: /publication/2016-01-01-Reliable-Tempo-Detection-for-Structural-Segmentation-in-Sarod-Concerts

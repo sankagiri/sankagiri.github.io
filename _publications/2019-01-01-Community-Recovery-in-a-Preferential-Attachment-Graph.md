@@ -1,6 +1,6 @@
 ---
 title: "Community Recovery in a Preferential Attachment Graph"
-authors: 'Bruce Hajek, <b>Suryanarayana Sankagiri</b>'
+authors: 'Bruce E. Hajek, <b>Suryanarayana Sankagiri</b>'
 collection: publications
 
 permalink: /publication/2019-01-01-Community-Recovery-in-a-Preferential-Attachment-Graph

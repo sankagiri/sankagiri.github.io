@@ -1,6 +1,6 @@
 ---
 title: "Blockchain Security when Messages are Lost"
-authors: 'Taha Ameen, <b>Suryanarayana Sankagiri</b>, Bruce Hajek'
+authors: 'Taha Ameen, <b>Suryanarayana Sankagiri</b>, Bruce E. Hajek'
 collection: publications
 
 permalink: /publication/2022-01-01-Blockchain-Security-when-Messages-are-Lost

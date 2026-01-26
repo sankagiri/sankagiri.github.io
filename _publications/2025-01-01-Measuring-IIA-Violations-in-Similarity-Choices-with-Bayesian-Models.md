@@ -1,6 +1,6 @@
 ---
 title: "Measuring IIA Violations in Similarity Choices with Bayesian Models"
-authors: 'Hugo Correa, <b>Suryanarayana Sankagiri</b>, Daniel Figueiredo, Matthias Grossglauser'
+authors: 'Hugo Sales Correa, <b>Suryanarayana Sankagiri</b>, Daniel R. Figueiredo, Matthias Grossglauser'
 collection: publications
 
 permalink: /publication/2025-01-01-Measuring-IIA-Violations-in-Similarity-Choices-with-Bayesian-Models

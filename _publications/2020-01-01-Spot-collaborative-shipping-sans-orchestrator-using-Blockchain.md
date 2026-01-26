@@ -1,6 +1,6 @@
 ---
 title: "Spot collaborative shipping sans orchestrator using Blockchain"
-authors: 'Kameshwaran Sampath, Sai Danda, Ken Kumar, Krishnasuri Narayanam, Pankaj Dayama, <b>Suryanarayana Sankagiri</b>'
+authors: 'Kameshwaran Sampath, Sai Koti Reddy Danda, Ken Kumar, Krishnasuri Narayanam, Pankaj Dayama, <b>Suryanarayana Sankagiri</b>'
 collection: publications
 
 permalink: /publication/2020-01-01-Spot-collaborative-shipping-sans-orchestrator-using-Blockchain

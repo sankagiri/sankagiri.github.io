@@ -1,6 +1,6 @@
 ---
 title: "Inventory Pooling using Deep Reinforcement Learning"
-authors: 'Kameshwaran Sampath, Sandeep Nishad, Sai Danda, Pankaj Dayama, <b>Suryanarayana Sankagiri</b>'
+authors: 'Kameshwaran Sampath, Sandeep Nishad, Sai Koti Reddy Danda, Pankaj Dayama, <b>Suryanarayana Sankagiri</b>'
 collection: publications
 
 permalink: /publication/2022-01-01-Inventory-Pooling-using-Deep-Reinforcement-Learning
