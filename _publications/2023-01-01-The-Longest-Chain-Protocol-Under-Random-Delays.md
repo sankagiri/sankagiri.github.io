@@ -1,6 +1,8 @@
 ---
 title: "The Longest-Chain Protocol Under Random Delays"
+authors: '<b>Suryanarayana Sankagiri</b>, Shreyas Gandlur, Bruce Hajek'
 collection: publications
+
 permalink: /publication/2023-01-01-The-Longest-Chain-Protocol-Under-Random-Delays
 category: journals
 date: 2023-01-01

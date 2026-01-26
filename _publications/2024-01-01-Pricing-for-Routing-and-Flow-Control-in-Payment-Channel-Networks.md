@@ -1,6 +1,8 @@
 ---
 title: "Pricing for Routing and Flow-Control in Payment Channel Networks"
+authors: '<b>Suryanarayana Sankagiri</b>, Bruce Hajek'
 collection: publications
+
 permalink: /publication/2024-01-01-Pricing-for-Routing-and-Flow-Control-in-Payment-Channel-Networks
 category: workshops
 date: 2024-01-01

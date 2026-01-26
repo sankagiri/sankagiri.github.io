@@ -1,6 +1,8 @@
 ---
 title: "Merkle Trees Optimized for Stateless Clients in Bitcoin"
+authors: 'Bolton Bailey, <b>Suryanarayana Sankagiri</b>'
 collection: publications
+
 permalink: /publication/2021-01-01-Merkle-Trees-Optimized-for-Stateless-Clients-in-Bitcoin
 category: workshops
 date: 2021-01-01

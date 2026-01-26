@@ -1,6 +1,8 @@
 ---
 title: "Blockchain CAP Theorem Allows User-Dependent Adaptivity and Finality"
+authors: '<b>Suryanarayana Sankagiri</b>, Xuechao Wang, Sreeram Kannan, Pramod Viswanath'
 collection: publications
+
 permalink: /publication/2021-01-01-Blockchain-CAP-Theorem-Allows-User-Dependent-Adaptivity-and-Finality
 category: conferences
 date: 2021-01-01
