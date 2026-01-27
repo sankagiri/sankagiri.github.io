@@ -1,12 +1,17 @@
 ---
 title: "Pricing for Routing and Flow-Control in Payment Channel Networks"
-authors: '<b>Suryanarayana Sankagiri</b>, Bruce E. Hajek'
 collection: publications
-
 permalink: /publication/2025-01-01-Pricing-for-Routing-and-Flow-Control-in-Payment-Channel-Networks
-category: journals
+authors: '<b>Suryanarayana Sankagiri</b>, Bruce E. Hajek'
 date: 2025-01-01
 venue: 'IEEE Transactions on Networking'
+category: journals
 excerpt: ''
+paperurl: 'https://arxiv.org/pdf/2502.20203.pdf'
+officialurl: 'https://ieeexplore.ieee.org/document/11096409'
 ---
+
 A payment channel network is a blockchain-based overlay mechanism that allows parties to transact more efficiently than directly using the blockchain. These networks are composed of payment channels that carry transactions between pairs of users. Due to its design, a payment channel cannot sustain a net flow of money in either direction indefinitely. Therefore, a payment channel network cannot serve transaction requests arbitrarily over a long period of time. We introduce DEBT control, a joint routing and flow-control protocol that guides a payment channel network towards an optimal operating state for any steady-state demand. In this protocol, each channel sets a price for routing transactions through it. Transacting users make flow-control and routing decisions by responding to these prices. A channel updates its price based on the net flow of money through it. We develop the protocol by formulating a network utility maximization problem and solving its dual through gradient descent. We provide convergence guarantees for the protocol and also illustrate its behavior through simulations.
+
+[Download PDF](https://arxiv.org/pdf/2502.20203.pdf){: .btn .btn--info} 
+[Publisher Page](https://ieeexplore.ieee.org/document/11096409){:target="_blank"}
