@@ -35,6 +35,11 @@ Work experience
   * Worked on solving supply-chain problems using blockchains
   * Supervisor: Dr. Kameshwaran Sampath
 
+* July 2015 -- July 2016: B.Tech. Project
+  * Indian Institute of Technology (IIT) Bombay
+  * Worked on concert segmentation via tempo detection in Hindustani classical music
+  * Supervisor: Professor Preeti Rao
+
 * Summer 2015: Summer Internship
   * Qualcomm, Bengaluru
   * Worked on RFIC chip design
