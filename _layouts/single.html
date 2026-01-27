@@ -51,25 +51,28 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-      {% if page.citation or page.paperurl or page.officialurl or page.slidesurl %}
+        {% if page.citation or page.paperurl or page.officialurl or page.slidesurl %}
         <p style="font-size: smaller">
           {% if page.citation %}Recommended citation: {{ page.citation }}<br />{% endif %}
           
+          {% assign link_items = "" | split: "," %}
+
           {% if page.officialurl %}
-            <a href="{{ page.officialurl }}" style="text-decoration: underline;">Publisher Page</a>
+            {% capture link_html %}<a href="{{ page.officialurl }}" style="text-decoration: underline;">Publisher Page</a>{% endcapture %}
+            {% assign link_items = link_items | push: link_html %}
           {% endif %}
-          
-          {% if page.officialurl and page.paperurl %} | {% endif %}
-          
+
           {% if page.paperurl %}
-            <a href="{{ page.paperurl }}" style="text-decoration: underline;">ArXiv PDF</a>
+            {% capture link_html %}<a href="{{ page.paperurl }}" style="text-decoration: underline;">ArXiv PDF</a>{% endcapture %}
+            {% assign link_items = link_items | push: link_html %}
           {% endif %}
-          
-          {% if (page.officialurl or page.paperurl) and page.slidesurl %} | {% endif %}
-          
+
           {% if page.slidesurl %}
-            <a href="{{ page.slidesurl }}">Download Slides</a>
+            {% capture link_html %}<a href="{{ page.slidesurl }}" style="text-decoration: underline;">Download Slides</a>{% endcapture %}
+            {% assign link_items = link_items | push: link_html %}
           {% endif %}
+          
+          {{ link_items | join: " | " }}
         </p>
       {% endif %}
 

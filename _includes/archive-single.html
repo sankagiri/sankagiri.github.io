@@ -58,23 +58,26 @@
     <p>
       {% if post.citation %}Recommended citation: {{ post.citation }}<br />{% endif %}
       
+      {% assign link_items = "" | split: "," %}
+
       {% if post.officialurl %}
-        <a href="{{ post.officialurl }}" style="text-decoration: underline;">Publisher Page</a>
-      {% endif %}
-      
-      {% if post.officialurl and post.paperurl %} | {% endif %}
-      
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" style="text-decoration: underline;">ArXiv PDF</a>
+        {% capture link_html %}<a href="{{ post.officialurl }}" style="text-decoration: underline;">Publisher Page</a>{% endcapture %}
+        {% assign link_items = link_items | push: link_html %}
       {% endif %}
 
-      {% if (post.officialurl or post.paperurl) and post.slidesurl %} | {% endif %}
+      {% if post.paperurl %}
+        {% capture link_html %}<a href="{{ post.paperurl }}" style="text-decoration: underline;">ArXiv PDF</a>{% endcapture %}
+        {% assign link_items = link_items | push: link_html %}
+      {% endif %}
 
       {% if post.slidesurl %}
-        <a href="{{ post.slidesurl }}">Download Slides</a>
+        {% capture link_html %}<a href="{{ post.slidesurl }}" style="text-decoration: underline;">Download Slides</a>{% endcapture %}
+        {% assign link_items = link_items | push: link_html %}
       {% endif %}
+      
+      {{ link_items | join: " | " }}
     </p>
-    {% endif %}
+  {% endif %}
 
   </article>
 </div>
