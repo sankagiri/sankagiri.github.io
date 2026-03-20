@@ -6,7 +6,7 @@ permalink: /talks/2025-job-talk
 date: 2025-11-04
 ---
 
-I gave this talk at the following institutions in November 2025:
+My job talk, given at six different Indian institutions in November 2025.
 
 - Ashoka University, Department of Computer Science (Nov 4)
 - IIT Gandhinagar, Department of Electrical Engineering (Nov 6)
