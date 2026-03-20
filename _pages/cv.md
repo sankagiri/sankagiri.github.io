@@ -15,8 +15,6 @@ Education
 * Ph.D in Electrical and Computer Engineering, University of Illinois Urbana-Champaign (UIUC), 2022
 * M.S. in Electrical and Computer Engineering, University of Illinois Urbana-Champaign (UIUC), 2018
 * B.Tech. in Electrical Engineering, Indian Institute of Technology (IIT) Bombay, 2016
-* Higher Secondary Certificate Examination (Class XII), Maharashtra State Board, 2012
-* Secondary School Examination (Class X), Central Board of Secondary Education, 2010
 
 Research Experience
 ======
