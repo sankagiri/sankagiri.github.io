@@ -65,7 +65,7 @@ Teaching Experience
   * Instructor: Professor R. Srikant
   * Gave three lectures on blockchains and payment channel networks
 
-* Spring 2021: ECE 598 -- Principles of Blokchains, UIUC
+* Spring 2021: ECE 598 -- Principles of Blockchains, UIUC
   * Instructor: Professor Pramod Viswanath
   * Prepared lecture notes for a new course
 
