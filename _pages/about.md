@@ -7,27 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor at the [Wadhwani School of Data Science and AI](https://wsai.iitm.ac.in) at [IIT Madras](https://www.iitm.ac.in). My research focuses on the mathematical foundations of learning from human preferences, with applications to recommendation and search. My research is largely theoretical in nature, mixing various tools from probability, statistics, optimisation, and network science.
+I am an Assistant Professor at the [Wadhwani School of Data Science and AI](https://wsai.iitm.ac.in) at [IIT Madras](https://www.iitm.ac.in). My research focuses on the mathematical foundations of learning from human preferences, with applications to recommendation and search. My research is largely theoretical in nature, mixing various tools from probability, statistics, optimisation, and network science. See my [Research](/research/) page for a detailed description of my research interests.
 
-Previously, I was a postdoctoral researcher at EPFL, Switzerland, working with Prof. [Matthias Grossglauser](https://people.epfl.ch/matthias.grossglauser). I obtained my PhD and MS from the Electrical and Computer Engineering department at the University of Illinois, Urbana-Champaign, advised by Prof. [Bruce Hajek](https://hajek.ece.illinois.edu). I graduated from IIT Bombay with a B.Tech in Electrical Engineering in 2016.
+Previously, I was a postdoctoral researcher at EPFL, Switzerland, working with Prof. [Matthias Grossglauser](https://people.epfl.ch/matthias.grossglauser). I obtained my PhD and MS from the Electrical and Computer Engineering department at the University of Illinois, Urbana-Champaign, advised by Prof. [Bruce Hajek](https://hajek.ece.illinois.edu). I graduated from IIT Bombay with a B.Tech. in Electrical Engineering in 2016.
 
-Primary Interests
----
+## Working with me
 
-My primary research focus is on learning human preferences from comparison and choice data.The key insight motivating this line of work is that comparisons can be a more informative form of feedback than ratings. Two recent works of mine serve as a motivation for this interest. Firstly, in our [ICML 2025](https://arxiv.org/pdf/2502.20033) paper, we show that learning personalized preferences by seeking comparisons is as efficient as learning from ratings, both in a statistical sense (number of data points needed) and a computational sense (fast convergence of the algorithm). Secondly, our work in [ALT 2026](https://arxiv.org/pdf/2510.01871) suggests that discretisation in ratings leads to a severe loss of information, which comparisons overcome.
+I am looking to build a research group to explore the challenges of building the next generation of AI systems that truly understand user preferences, whether for recommender systems, search engines, or AI assistants. If you are a student at IIT Madras and would like to work in this area, please get in touch! I am happy to mentor students at all levels (Bachelors, Masters, Doctoral, or Postdoctoral).
 
-Currently, I am actively working on two concrete problems. One, I am interested in designing new algorithms that can efficiently collect comparisons in an online recommendation setting. Some preliminary work in this direction was published in [ALT 2026](https://arxiv.org/pdf/2508.18841). Two, I am interested in designing richer choice models that better reflect human behavior, improving over the prediction of standard models. This direction follows from previous work published in [UAI 2025](https://arxiv.org/pdf/2508.14615), which shows that existing models do not explain real comparison data well. 
+### Opportunities
 
-More broadly, I am motivated to build next-generation AI systems that can be used for personalised education.
+Students at IIT Madras can send me an email to set up an appointment in my office.
 
-Other Interests
----
+Students outside of IIT Madras are encouraged to explore the following opportunities:
 
-In the past (during my PhD), I worked on the security and efficiency of blockchain protocols. The overarching goal of my work was to design mathematically tractable, yet realistic models, such that the ensuing mathematical analysis leads to some new practical insight. For example, we developed new security guarantees for the longest-chain protocol under stochastic network conditions; this showed that blockchains are more robust to network delays than previously believed ([Stochastic Systems 2023](https://arxiv.org/pdf/2102.00973.pdf)). Another example is my work on payment channel networks, which formulates the operation of this network as a constrained utility maximization problem; this work showed for the first time that along with routing, flow-control is also important for optimal operation of such networks ([IEEE/ACM Transactions on Networking 2025](https://arxiv.org/pdf/2502.20203.pdf)). I continue to remain interested in problems in stochastic systems, network science, and decentralized control that share a similar mathematical flavor.
+* 3–6 month [Internships](https://wsai.iitm.ac.in/internships/) for Bachelors and Masters students
+* 1–2 year [Post Bacc Fellowship](https://wsai.iitm.ac.in/fellowships/)
+* [MS by Research or PhD programs](https://wsai.iitm.ac.in/admissions/ms-phd-admissions/)
 
-In the long run, I see these two threads — learning and control — coming together in the study of systems where multiple AI agents interact with humans and with each other, each operating under limited information and competing incentives. 
+### Prerequisites
 
-Working with me
----
-
-If you are a student at IIT Madras interested in the above topics, feel free to send me an email.
+My research straddles both theory and practice. One should be comfortable with basic concepts in probability, optimisation, and machine learning, and also with coding using machine learning libraries. Coursework similar to the first two years of the [B.Tech in AI & Data Analytics](https://wsai.iitm.ac.in/admissions/btech-ai-data-analytics/) program at WSAI would be good preparation.
