@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor at the [Wadhwani School of Data Science and AI](https://wsai.iitm.ac.in) at [IIT Madras](https://www.iitm.ac.in). My research focuses on the mathematical foundations of learning from human preferences, with applications to recommendation and search. My research is largely theoretical in nature, mixing various tools from probability, statistics, optimisation, and network science. See my [Research](/research/) page for a detailed description of my research interests.
+I am an Assistant Professor at the [Wadhwani School of Data Science and AI](https://wsai.iitm.ac.in) at [IIT Madras](https://www.iitm.ac.in). My research focuses on the mathematical foundations of learning from human preferences, with applications to recommendation and search. My research is largely theoretical in nature, mixing various tools from probability, statistics, optimisation, and network science.
 
 Previously, I was a postdoctoral researcher at EPFL, Switzerland, working with Prof. [Matthias Grossglauser](https://people.epfl.ch/matthias.grossglauser). I obtained my PhD and MS from the Electrical and Computer Engineering department at the University of Illinois, Urbana-Champaign, advised by Prof. [Bruce Hajek](https://hajek.ece.illinois.edu). I graduated from IIT Bombay with a B.Tech. in Electrical Engineering in 2016.
+
+For a detailed description of my research interests, see my [Research](/research/) and [Publications](/publications/) pages.
 
 ## Working with me
 
