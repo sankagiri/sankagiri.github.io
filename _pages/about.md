@@ -19,7 +19,7 @@ I am looking to build a research group to explore the challenges of building the
 
 ### Opportunities
 
-I hold drop-in office hours in my office, Room 655, [NAC2](https://maps.google.com/?q=X6RG%2BCXC+IIT+Madras), on Mondays 3–4 pm and Wednesdays 4–5 pm. Feel free to stop by without an appointment. For all other times, please email me to schedule a meeting.
+If you would like to meet me in my office, (Room 655, [NAC2](https://maps.google.com/?q=X6RG%2BCXC+IIT+Madras)), please email me to schedule a meeting.
 
 Students outside of IIT Madras are encouraged to explore the following opportunities:
 
@@ -27,6 +27,8 @@ Students outside of IIT Madras are encouraged to explore the following opportuni
 * 1–2 year [Post Bacc Fellowship](https://wsai.iitm.ac.in/fellowships/) (rolling admissions, apply anytime)
 * [MS by Research or PhD programs](https://wsai.iitm.ac.in/admissions/ms-phd-admissions/) (6-month admission cycle)
 * [Postdoctoral Fellowship](https://wsai.iitm.ac.in/fellowships/) (rolling admissions, apply anytime)
+
+I only take students through these formal channels.
 
 ### Prerequisites
 
