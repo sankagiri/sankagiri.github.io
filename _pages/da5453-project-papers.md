@@ -19,9 +19,6 @@ The labels below are meant to help you begin:
 - **Highly recommended** papers are particularly close to the course and lend
   themselves to a well-scoped project.
 - **Recommended** papers are also strong project choices.
-- *Course background* papers are substantially covered in class. They are
-  included for reference, but will not normally be assigned as standalone
-  project papers.
 - *Companion reading* is useful in support of another paper, but is usually too
   broad, too specialised, or not sufficiently self-contained for a project by
   itself.
@@ -36,7 +33,10 @@ approval. In all cases, the precise project scope will be fixed separately.
 
 - **[Rank Centrality: Ranking from Pairwise Comparisons](https://arxiv.org/abs/1209.1688)**  
   Sahand Negahban, Sewoong Oh and Devavrat Shah. *Operations Research, 2017.*  
-  *Course background.*
+  **Highly recommended.** The spectral algorithm and its guarantee are covered
+  in class, so a project should go beyond the lecture treatment: study how the
+  error depends on the topology of the comparison graph, comparing Erdős–Rényi,
+  regular and poorly connected designs against BTL maximum likelihood.
 
 - **[Fast and Accurate Inference of Plackett–Luce Models](https://papers.nips.cc/paper_files/paper/2015/hash/2a38a4a9316c49e5a833517c45d31070-Abstract.html)**  
   Lucas Maystre and Matthias Grossglauser. *NeurIPS, 2015.*  
@@ -143,20 +143,32 @@ approval. In all cases, the precise project scope will be fixed separately.
 - **[BPR: Bayesian Personalized Ranking from Implicit Feedback](https://arxiv.org/abs/1205.2618)**  
   Steffen Rendle, Christoph Freudenthaler, Zeno Gantner and Lars Schmidt-Thieme.
   *UAI, 2009.*  
-  *Course background.*
+  **Highly recommended.** BPR turns implicit feedback into pairwise preferences
+  and optimises a smoothed ranking criterion, which makes it a clean bridge
+  from the BTL likelihood to recommendation. A project can implement the
+  sampler and compare it with pointwise matrix factorisation on MovieLens.
 
 - **[Optimizing Search Engines using Clickthrough Data](https://doi.org/10.1145/775047.775067)**  
   Thorsten Joachims. *KDD, 2002.*  
-  *Course background.*
+  **Highly recommended.** The paper introduces the ranking SVM and the idea of
+  extracting relative judgements from clicks rather than absolute labels. A
+  project can implement the pairwise ranking objective on a public
+  learning-to-rank dataset and examine which click-derived constraints matter.
 
 - **[Accurately Interpreting Clickthrough Data as Implicit Feedback](https://research.google/pubs/accurately-interpreting-clickthrough-data-as-implicit-feedback/)**  
   Thorsten Joachims, Laura Granka, Bing Pan, Helene Hembrooke and Geri Gay.
   *SIGIR, 2005.*  
-  *Course background.*
+  **Highly recommended.** This eye-tracking study established position bias and
+  motivated relative rather than absolute interpretations of clicks. Being
+  empirical, it is best turned into a simulation: build a click model carrying
+  the biases it documents and measure how they distort estimated relevance.
 
 - **[Unbiased Learning-to-Rank with Biased Feedback](https://arxiv.org/abs/1608.04468)**  
   Thorsten Joachims, Adith Swaminathan and Tobias Schnabel. *WSDM, 2017.*  
-  *Course background.*
+  **Highly recommended.** Propensity-weighted ERM makes the debiasing of click
+  data precise and yields an unbiased risk estimate for ranking. A project can
+  implement the IPS estimator, vary the propensity model, and measure the bias
+  and variance trade-off against a naive click-trained ranker.
 
 - **[Position Bias Estimation for Unbiased Learning to Rank in Personal Search](https://research.google/pubs/position-bias-estimation-for-unbiased-learning-to-rank-in-personal-search/)**  
   Xuanhui Wang, Nadav Golbandi, Michael Bendersky, Donald Metzler and Marc
@@ -215,16 +227,25 @@ approval. In all cases, the precise project scope will be fixed separately.
 - **[Deep Reinforcement Learning from Human Preferences](https://papers.nips.cc/paper/7017-deep-reinforcement-learning)**  
   Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg and Dario
   Amodei. *NeurIPS, 2017.*  
-  *Course background.*
+  **Highly recommended.** This is the paper that placed BTL reward learning
+  inside a deep RL loop, and only its main idea is covered in class. A project
+  can reproduce preference-based reward learning on a small control task and
+  study how the query budget and label noise affect the learnt policy.
 
 - **[Training Language Models to Follow Instructions with Human Feedback](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract.html)**  
   Long Ouyang et al. *NeurIPS, 2022.*  
-  *Course background.*
+  **Highly recommended.** InstructGPT is the reference description of the full
+  three-stage RLHF pipeline. A project must necessarily work at small scale:
+  fit a reward model on a public preference dataset and examine how its
+  accuracy and calibration vary with data size and annotator disagreement.
 
 - **[Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://proceedings.neurips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html)**  
   Rafael Rafailov, Archit Sharma, Eric Mitchell, Christopher D. Manning, Stefano
   Ermon and Chelsea Finn. *NeurIPS, 2023.*  
-  *Course background.*
+  **Highly recommended.** The reparameterisation that removes the explicit
+  reward model is short enough to be worked through in full detail. A project
+  can implement DPO on a small model or a bandit surrogate, and test where its
+  claimed equivalence with RLHF breaks down in practice.
 
 - **[Principled Reinforcement Learning with Human Feedback from Pairwise or K-wise Comparisons](https://arxiv.org/abs/2301.11270)**  
   Banghua Zhu, Michael I. Jordan and Jiantao Jiao. *ICML, 2023.*  
@@ -330,7 +351,10 @@ approval. In all cases, the precise project scope will be fixed separately.
 - **[Relative Upper Confidence Bound for the K-Armed Dueling Bandit Problem](https://arxiv.org/abs/1312.3393)**  
   Masrour Zoghi, Shimon Whiteson, Rémi Munos and Maarten de Rijke. *ICML,
   2014.*  
-  *Course background.*
+  **Highly recommended.** RUCB is the natural optimistic algorithm for duels
+  and requires no explicit exploration phase. A project can implement it,
+  examine its regret on preference matrices with and without a Condorcet
+  winner, and compare it with Interleaved Filter and Double Thompson Sampling.
 
 - **[Regret Lower Bound and Optimal Algorithm in Dueling Bandit Problem](https://arxiv.org/abs/1506.02550)**  
   Junpei Komiyama, Junya Honda, Hisashi Kashima and Hiroshi Nakagawa. *COLT,
@@ -373,7 +397,10 @@ approval. In all cases, the precise project scope will be fixed separately.
 - **[Maximum Selection and Ranking under Noisy Comparisons](https://arxiv.org/abs/1705.05366)**  
   Moein Falahatgar, Alon Orlitsky, Venkatadheeraj Pichapati and Ananda Theertha
   Suresh. *ICML, 2017.*  
-  *Course background.*
+  **Highly recommended.** The paper gives near-optimal sample complexities for
+  maximum selection and for ranking under strong stochastic transitivity, by
+  means of pleasingly simple tournament-style algorithms. A project can
+  implement them and compare empirical sample counts with the stated bounds.
 
 ## 8. Contextual, multiway and assortment bandits
 
@@ -388,7 +415,10 @@ approval. In all cases, the precise project scope will be fixed separately.
 - **[MNL-Bandit: A Dynamic Learning Approach to Assortment Selection](https://arxiv.org/abs/1706.03880)**  
   Shipra Agrawal, Vashist Avadhanula, Vineet Goyal and Assaf Zeevi. *Operations
   Research, 2019.*  
-  *Course background.*
+  **Highly recommended.** This is the journal treatment of the UCB approach to
+  assortment selection discussed in class, including the matching lower bound.
+  A project can implement the epoch-based algorithm, reproduce the regret
+  curves and study sensitivity to assortment size and revenue parameters.
 
 - **[Thompson Sampling for Multinomial Logit Contextual Bandits](https://papers.nips.cc/paper_files/paper/2019/hash/36d7534290610d9b7e9abed244dd2f28-Abstract.html)**  
   Min-hwan Oh and Garud Iyengar. *NeurIPS, 2019.*
