@@ -5,7 +5,7 @@ permalink: /teaching/2026-da5453/papers/
 author_profile: true
 ---
 
-[Back to the course webpage](/teaching/2026-da5453/)
+[Back to the course webpage](/teaching/2026-da5453)
 
 This is a broad catalogue of papers related to the course. You are **not**
 expected to read all of them. For the capstone project, each pair of students
