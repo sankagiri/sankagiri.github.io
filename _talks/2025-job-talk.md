@@ -4,6 +4,7 @@ collection: talks
 type: "Job talk"
 permalink: /talks/2025-job-talk
 date: 2025-11-04
+excerpt: "My job talk on learning human preferences, given at six Indian institutions in November 2025. [Slides (PDF)](/files/talk-slides/job-talk-slides.pdf)"
 ---
 
 My job talk, given at six different Indian institutions in November 2025.
