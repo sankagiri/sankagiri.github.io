@@ -1,0 +1,21 @@
+---
+layout: single
+---
+<nav class="project-links" aria-label="Project navigation">
+  <a href="{{ '/projects/' | relative_url }}">&larr; All project ideas</a>
+  <a href="{{ '/projects/working-guide/' | relative_url }}">How to work independently</a>
+</nav>
+<div class="project-facts">
+  <p><strong>What you need:</strong> {{ page.project_resources }}</p>
+  {% if page.project_budget %}<p><strong>Estimated budget:</strong> {{ page.project_budget }}</p>{% endif %}
+</div>
+<p><small>An independent project; I cannot offer individual supervision. <a href="{{ '/projects/#getting-in-touch' | relative_url }}">When to share progress.</a></small></p>
+{{ content }}
+<footer class="project-footer">
+  <p>These are starting points, not a checklist. Follow an interesting result—even if it changes the question.</p>
+  <nav class="project-links" aria-label="Next steps">
+    <a href="{{ '/projects/working-guide/' | relative_url }}">AI tools, debugging, and reporting</a>
+    <a href="{{ '/projects/#getting-in-touch' | relative_url }}">When to get in touch</a>
+    <a href="{{ '/projects/' | relative_url }}">Choose another project</a>
+  </nav>
+</footer>

@@ -1,0 +1,86 @@
+/* Project pages use the site's typography and light/dark theme colours. */
+.project-invitation,
+.project-note {
+  margin: 1.5em 0;
+  padding: 1.1em 1.25em;
+  border-left: 4px solid var(--global-base-color);
+  background: var(--global-footer-bg-color);
+
+  h2 {
+    margin-top: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+    font-size: 1.25em;
+  }
+
+  p:last-child { margin-bottom: 0; }
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1.25em;
+  margin: 1em 0 1.5em;
+  font-size: 0.85em;
+}
+
+.project-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+  > li {
+    padding: 0.9em 0;
+    border-top: 1px solid var(--global-border-color);
+  }
+
+  h3 {
+    margin: 0 0 0.45em;
+    font-size: 1.12em;
+
+    a { color: var(--global-text-color); }
+  }
+  p { margin-bottom: 0.5em; }
+  .project-meta { font-size: 0.85em; }
+}
+
+.project-facts {
+  padding: 0.8em 1em;
+  margin: 1em 0;
+  border: 1px solid var(--global-border-color);
+  font-size: 0.9em;
+
+  p { margin-bottom: 0.5em; }
+  p:last-child { margin-bottom: 0; }
+}
+
+.project-theme-nav {
+  display: grid;
+  gap: 0.6em;
+  margin: 1.25em 0 2em;
+  padding: 1em 1.25em;
+  border: 1px solid var(--global-border-color);
+
+  a { color: var(--global-text-color); }
+}
+
+.project-theme > h2 { scroll-margin-top: 5rem; }
+
+.project-footer {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid var(--global-border-color);
+  font-size: 0.9em;
+}
+
+.project-list a,
+.project-links a,
+.project-invitation a,
+.project-footer a {
+  text-underline-offset: 0.15em;
+
+  &:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+  }
+}

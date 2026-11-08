@@ -13,6 +13,8 @@ Previously, I was a postdoctoral researcher at EPFL, Switzerland, working with P
 
 For a detailed description of my research interests, see my [Research](/research/) and [Publications](/publications/) pages.
 
+**Looking for an internship?** Here are some [projects you can explore independently from your home or college]({{ '/projects/' | relative_url }}).
+
 ## Working with me
 
 I am looking to build a research group to explore the challenges of building the next generation of AI systems that truly understand user preferences, whether for recommender systems, search engines, or AI assistants. If you are a student at IIT Madras and would like to work in this area, please get in touch! I am happy to mentor students at all levels (Bachelors, Masters, Doctoral, or Postdoctoral).

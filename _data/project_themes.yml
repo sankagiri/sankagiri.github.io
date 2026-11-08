@@ -1,0 +1,15 @@
+- id: heat-air
+  title: "Heat, energy and air"
+  description: "Turn a room, a sunny balcony, or a familiar walk into an experiment."
+- id: water-waves
+  title: "Water, waves and things you can see"
+  description: "Build small apparatus, change one condition, and watch a process unfold."
+- id: cities-control
+  title: "Cities, simulators and interventions"
+  description: "Measure a small system or build a checked model, then ask what would improve it."
+- id: public-data
+  title: "Investigations with public data"
+  description: "Build your own trustworthy dataset from records, reports, and permitted feeds."
+- id: signals-models
+  title: "Sound, language and model behaviour"
+  description: "Listen closely, collect your own evidence, and test what a model really learns."

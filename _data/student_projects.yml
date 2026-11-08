@@ -1,0 +1,120 @@
+- title: "Watch heat move"
+  slug: thermal-cooling
+  theme: heat-air
+  description: "Film cooling cups and warm surfaces in infrared. Can a model predict the next temperature map?"
+  fit: "Heat transfer, imaging, and small controlled experiments."
+  resources: "₹10–25k starter kit; optional better camera later."
+- title: "A solar panel as a miniature power station"
+  slug: solar-panel
+  theme: heat-air
+  description: "Move a shadow across a small panel and measure what happens to its power. Learn to predict and explain the loss."
+  fit: "Energy, electronics, and outdoor experiments."
+  resources: "₹8–20k; a secure sunny spot."
+- title: "Map the air on your everyday walk"
+  slug: air-quality
+  theme: heat-air
+  description: "Build a particle logger and repeat a route. Separate a persistent hotspot from weather, timing, and sensor error."
+  fit: "Environmental measurement, maps, and careful comparisons."
+  resources: "₹8–20k; paired loggers are a useful upgrade."
+- title: "How quickly does your room exchange its air?"
+  slug: room-ventilation
+  theme: heat-air
+  description: "Use CO₂ decay after ordinary occupancy to compare window and door arrangements. Fit a model of the room."
+  fit: "Mass balance, time series, and experimental design."
+  resources: "₹8–20k; a real CO₂ sensor with data export."
+- title: "Where does the water in a flowerpot go?"
+  slug: soil-water
+  theme: water-waves
+  description: "Combine pot weight and soil probes to study wetting, drainage, and drying; then try predicting the next watering time."
+  fit: "Plants, soil physics, and calibrated sensing."
+  resources: "₹5–15k; several pots and a balance."
+- title: "Build a tiny river and follow a tracer"
+  slug: water-tracer
+  theme: water-waves
+  description: "Send a pulse of dye or salt through a tabletop channel. Estimate travel time and mixing, then change the channel."
+  fit: "Fluid flow, transport, and inverse problems."
+  resources: "₹5–12k optical start; ₹20–45k with a logged EC probe."
+- title: "Can you draw a chair with echoes?"
+  slug: ultrasound-map
+  theme: water-waves
+  description: "Scan household objects with an ultrasonic rangefinder. Learn why surfaces disappear and why an echo is not a photograph."
+  fit: "Waves, geometry, and building a scanning rig."
+  resources: "₹5–15k; advanced waveform capture costs more."
+- title: "Make flow visible"
+  slug: flow-visualisation
+  theme: water-waves
+  description: "Film a dye plume or water moving around an obstacle. Track patterns and discover what a video can—and cannot—measure."
+  fit: "Fluid mechanics, image analysis, and creative apparatus."
+  resources: "Household materials and a phone; optional ₹3–12k apparatus."
+- title: "Why does the queue at your street corner grow?"
+  slug: street-traffic
+  theme: cities-control
+  description: "Observe one junction from a permitted fixed viewpoint. Estimate queues and test a small traffic model."
+  fit: "Networks, video measurement, and urban curiosity."
+  resources: "₹0–10k; permission and a safe viewing position."
+- title: "Teach a simulated room when to cool itself"
+  slug: room-control
+  theme: cities-control
+  description: "Build a room model, test it against temperature data, and compare a thermostat with predictive or learned control."
+  fit: "Thermodynamics, optimisation, and stochastic control."
+  resources: "Laptop first; optional ₹3–10k temperature logging."
+- title: "Test tracing policies in a fictional city"
+  slug: epidemic-networks
+  theme: cities-control
+  description: "Simulate contacts, delayed tests, and limited tracing. Compare interventions across uncertain assumptions and social costs."
+  fit: "Probability, networks, and counterfactual experiments."
+  resources: "Laptop; synthetic people and contacts."
+- title: "Make a canteen queue less miserable"
+  slug: queue-lab
+  theme: cities-control
+  description: "Measure arrivals and service times, then compare queue layouts and staffing rules in a simulator."
+  fit: "Discrete-event simulation, statistics, and operations."
+  resources: "₹0–3k; observation permission for real data."
+- title: "Follow a public tender through its life"
+  slug: tender-lifecycle
+  theme: public-data
+  description: "Link notices, revisions, and published outcomes into a small audited dataset. Find where the record is complete or unclear."
+  fit: "Data cleaning, document extraction, and timelines."
+  resources: "Laptop; a few manually checked tenders."
+- title: "Do companies mean the same thing by water use?"
+  slug: company-filings
+  theme: public-data
+  description: "Extract one environmental measure from company reports, reconcile units and reporting boundaries, and compare fairly."
+  fit: "Public records, measurement definitions, and evidence."
+  resources: "Laptop; a small collection of official reports."
+- title: "Which district changes survive a closer look?"
+  slug: survey-gaps
+  theme: public-data
+  description: "Investigate one NFHS indicator across survey rounds, checking boundaries, definitions, and uncertainty before ranking districts."
+  fit: "Survey statistics and patient work with metadata."
+  resources: "Laptop; published aggregates for the first version."
+- title: "Which places make the news?"
+  slug: news-geography
+  theme: public-data
+  description: "Collect a small permitted news index and study local coverage after checking locations, missing feeds, and duplicate stories."
+  fit: "Language, geography, and sampling bias."
+  resources: "Laptop; permitted APIs or feeds and manual auditing."
+- title: "Hear what changed in an object"
+  slug: vibration-lab
+  theme: signals-models
+  description: "Tap a small beam, change a clamp or add a mass, and see whether its sound reveals the change."
+  fit: "Mechanics, sound, and signal processing."
+  resources: "₹2–10k with a phone; optional logged accelerometer."
+- title: "Can speech recognisers follow Tanglish?"
+  slug: tanglish-speech
+  theme: signals-models
+  description: "Record and carefully transcribe Tamil–English speech, then investigate recogniser failures around language switches."
+  fit: "Fluent Tamil, audio, and careful data work."
+  resources: "Existing phone and laptop; transcription time."
+- title: "Which Tamil answer do people prefer?"
+  slug: tamil-arena
+  theme: signals-models
+  description: "Build an anonymous comparison app, collect human preferences, and investigate where an AI judge disagrees."
+  fit: "Statistics, simple web development, and fluent readers."
+  resources: "Cached answers and willing participants."
+- title: "Do models solve a question and its twin?"
+  slug: gate-twins
+  theme: signals-models
+  description: "Write and verify variants of GATE-style problems. Investigate which answers survive a change in numbers or wording."
+  fit: "Mathematics and careful evaluation."
+  resources: "Small local models or occasional notebook compute."
