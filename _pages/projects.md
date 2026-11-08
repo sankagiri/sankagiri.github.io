@@ -13,6 +13,7 @@ You do not need an internship to start doing interesting work. Turn a flowerpot 
   <a href="#choose-a-project">Choose a project</a>
   <a href="{{ '/projects/working-guide/' | relative_url }}">Working guide</a>
   <a href="{{ '/projects/instrument-guide/' | relative_url }}">Instruments and budgets</a>
+  <a href="{{ '/projects/api-guide/' | relative_url }}">Model APIs and costs</a>
   <a href="#getting-in-touch">When to get in touch</a>
 </nav>
 

@@ -37,3 +37,5 @@ Word error rate counts inserted, deleted, and substituted words relative to the 
 Investigate errors near language switches, false words during silence, or performance across recording conditions. Fine-tuning is an option once you have separate training and evaluation data; it need not be the next step.
 
 The [Hugging Face Audio course](https://huggingface.co/learn/audio-course/en/chapter0/introduction) helps with practical tools, while [IndicVoices](https://arxiv.org/abs/2403.01926) provides an example of planned speech collection. A small, well-checked dataset and one clear observation can be a satisfying project. Budget mainly for listening, not compute.
+
+**API option:** Compare a hosted model with your local or simpler approach. See [small experiment costs and ideas]({{ '/projects/api-guide/' | relative_url }}) for Sarvam speech/text APIs and frontier models.

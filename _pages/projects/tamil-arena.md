@@ -39,3 +39,5 @@ Give an AI judge the same saved pairs in both orders. Compare its choices with t
 Explore one disagreement in depth, add another language, or compare more models. Statistical ranking methods become useful when you have enough comparisons; they need not be your first task.
 
 [Chatbot Arena](https://arxiv.org/abs/2403.04132) explains large-scale pairwise evaluation, and [Judging the Judges](https://arxiv.org/abs/2406.07791) studies position effects. A small app and a thoughtful account of where agreement breaks down can be more interesting than a confident-looking ranking.
+
+**API option:** Compare a hosted model with your local or simpler approach. See [small experiment costs and ideas]({{ '/projects/api-guide/' | relative_url }}) for Sarvam speech/text APIs and frontier models.

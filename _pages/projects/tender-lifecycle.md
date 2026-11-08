@@ -33,3 +33,5 @@ A tender still known to be open when you stop observing has no completed award t
 A missing award notice does not establish that work was never awarded. Nor does a long delay or repeated vendor name establish wrongdoing. Investigate definitions and missingness before interpreting anomalies.
 
 A source-linked timeline explorer could be useful by itself. With better coverage and procurement expertise, you could later study waiting times or forecast delays using only information available at the prediction date. Training a neural network is not necessary for a worthwhile first investigation.
+
+**API option:** Compare a hosted model with your local or simpler approach. See [small experiment costs and ideas]({{ '/projects/api-guide/' | relative_url }}) for Sarvam speech/text APIs and frontier models.

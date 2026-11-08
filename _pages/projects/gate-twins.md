@@ -39,3 +39,5 @@ Link to official papers and check reuse terms before redistributing their text. 
 ## If it gets interesting
 
 [GSM-Symbolic](https://arxiv.org/abs/2410.05229) explores mathematical problem variations; [JEEBench](https://arxiv.org/abs/2305.15074) is an Indian-exam evaluation precedent. Read them when a question in your own experiments gives you a reason to. A small, carefully explained failure pattern is a worthwhile outcome—even if the first error you discover is your own.
+
+**API option:** Compare a hosted model with your local or simpler approach. See [small experiment costs and ideas]({{ '/projects/api-guide/' | relative_url }}) for Sarvam speech/text APIs and frontier models.

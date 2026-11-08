@@ -35,3 +35,5 @@ You might build a small explorer that lets readers inspect every plotted value, 
 A discrepancy is a prompt to investigate, not evidence of fraud or greenwashing. Likewise, these reports do not automatically make a stock-price prediction project: publication timing and selection effects can create impressive-looking but misleading results.
 
 Keep source links and unresolved cases visible, and check reuse terms before sharing report material. More ambitious comparisons benefit from accounting or industry knowledge. A modest dataset with understandable numbers can be more valuable than a much larger one nobody can audit.
+
+**API option:** Compare a hosted model with your local or simpler approach. See [small experiment costs and ideas]({{ '/projects/api-guide/' | relative_url }}) for Sarvam speech/text APIs and frontier models.
