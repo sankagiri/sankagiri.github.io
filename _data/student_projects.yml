@@ -96,7 +96,7 @@
   resources: "Laptop; permitted APIs or feeds and manual auditing."
 - title: "Hear what changed in an object"
   slug: vibration-lab
-  theme: signals-models
+  theme: water-waves
   description: "Tap a small beam, change a clamp or add a mass, and see whether its sound reveals the change."
   fit: "Mechanics, sound, and signal processing."
   resources: "₹2–10k with a phone; optional logged accelerometer."
@@ -118,3 +118,13 @@
   description: "Write and verify variants of GATE-style problems. Investigate which answers survive a change in numbers or wording."
   fit: "Mathematics and careful evaluation."
   resources: "Small local models or occasional notebook compute."
+- title: "What does your camera model really recognise?"
+  slug: camera-naturalist
+  theme: signals-models
+  description: "Collect leaves and flowers with your phone. Discover whether a small vision model recognises the plant or its background."
+  resources: "Phone and laptop; a welcoming first project."
+- title: "Can one AI investigate another?"
+  slug: model-detective
+  theme: signals-models
+  description: "Give an AI a small classifier to investigate. Test its explanations on new photographs; explore raw weights if curiosity takes you there."
+  resources: "A small classifier; optional ₹300–₹1,000 API budget."

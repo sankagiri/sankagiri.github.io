@@ -11,5 +11,5 @@
   title: "Investigations with public data"
   description: "Build your own trustworthy dataset from records, reports, and permitted feeds."
 - id: signals-models
-  title: "Sound, language and model behaviour"
-  description: "Listen closely, collect your own evidence, and test what a model really learns."
+  title: "Images, language and model behaviour"
+  description: "Look and listen closely, collect your own evidence, and test what a model really learns."

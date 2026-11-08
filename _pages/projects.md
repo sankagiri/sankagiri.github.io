@@ -1,11 +1,11 @@
 ---
 permalink: /projects/
 title: "Build, measure, understand"
-description: "Twenty independent science and data projects: affordable instruments, real-world experiments, checked simulators, public data, and AI."
+description: "Twenty-two independent science and data projects: affordable instruments, real-world experiments, checked simulators, public data, and AI."
 author_profile: true
 ---
 
-You do not need an internship to start doing interesting work. Turn a flowerpot into a water-balance experiment, draw an object with echoes, investigate your street's traffic, or teach a model to control a simulated room. Here are **20 projects in five themes**, with small beginnings and room to go much further.
+You do not need an internship to start doing interesting work. Turn a flowerpot into a water-balance experiment, draw an object with echoes, investigate your street's traffic, or teach a model to control a simulated room. Here are **22 projects in five themes**, with small beginnings and room to go much further.
 
 **Use AI tools generously.** Let them help with code, electronics, unfamiliar mathematics, and debugging. You supply the curiosity, experimental choices, and checks.
 
@@ -26,7 +26,7 @@ You do not need an internship to start doing interesting work. Turn a flowerpot 
 
 These are starting points, not assignments. Try something small, follow what puzzles you, and change direction when you find a better question. You do not need to complete every suggestion.
 
-**Unsure where to begin?** Try [flow visualisation]({{ '/projects/flow-visualisation/' | relative_url }}) with your phone, [pot drying]({{ '/projects/soil-water/' | relative_url }}) with a balance, or a [queue simulator]({{ '/projects/queue-lab/' | relative_url }}) on a laptop. Buying equipment is optional. The budgets below are estimated starter-kit totals, excluding an existing phone/laptop; see the [instrument guide]({{ '/projects/instrument-guide/' | relative_url }}) before buying.
+**Unsure where to begin?** Try [leaves and flowers]({{ '/projects/camera-naturalist/' | relative_url }}) or [flow visualisation]({{ '/projects/flow-visualisation/' | relative_url }}) with your phone, [pot drying]({{ '/projects/soil-water/' | relative_url }}) with a balance, or a [queue simulator]({{ '/projects/queue-lab/' | relative_url }}) on a laptop. Buying equipment is optional. The budgets below are estimated starter-kit totals, excluding an existing phone/laptop; see the [instrument guide]({{ '/projects/instrument-guide/' | relative_url }}) before buying.
 
 <nav class="project-theme-nav" aria-label="Project themes">
 {% for theme in site.data.project_themes %}
